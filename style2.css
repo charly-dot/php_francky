@@ -1,0 +1,18 @@
+
+/* details d'une persone */
+.head{
+    box-shadow: 0px 0px 40px rgb(168, 168, 168);
+    border: 2px solid #ffffff; 
+    border-radius: 5px;
+    background-color: white;
+    margin-top:5%;
+    margin-left:30%;  
+} */
+
+.details .custom-image {
+    width: 500px !important;
+    height: 200px !important;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  

@@ -1,0 +1,251 @@
+body{
+    background-color: aqua !important;
+}
+.head{
+    margin-top:5%;
+    margin-left:  40%;
+}
+.formulaire{
+    border: 2px solid white;
+    border-radius: 1%;
+    background-color: white;
+    width: 40%;
+    box-shadow: 0px 0px 40px rgb(168, 168, 168);
+    padding: 10px 20px;
+}
+.formulaire:hover{
+    border: 2px solid rgb(248, 248, 248);
+    border-radius: 1%;
+    background-color: rgb(248, 248, 248);
+}
+.titre{
+    text-align: center;
+}
+.h2{
+    font-family: arial;
+}
+
+/* liste_ulilisateur */
+.liste_ulilisateur{
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    background-color: white;
+    width: 95% !important;
+    box-shadow: 0px 0px 40px rgb(168, 168, 168);
+    padding: 20px 20px;
+}
+.liste_ulilisateur table tr {
+    
+    margin-top: 20px;
+    padding: 40px 20px !important
+    
+}
+
+.head2{
+    padding: 5%;
+    margin-top:0%;
+    margin-left:  9%;
+    
+    
+}
+
+
+
+.Navbar li{
+    list-style: none;
+}
+
+.Nabar .liste{
+    margin-left: 20%;
+}
+
+.recherche{
+    width: 20px !important;
+}
+
+/* creation de produit */
+
+.Insertion_produit{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: white;
+    width: 70%;
+    box-shadow: 0px 0px 40px rgb(168, 168, 168);
+    padding: 20px 20px;
+    margin-left: -20%;
+}
+.list{
+    margin-top: 5%;
+}
+.option1{
+border: 1px  solid rgb(236, 236, 236) !important;
+margin-left: -2%;
+border-radius: 5px;
+}
+
+/* fin creation de produit */
+/* details d'une persone */
+
+.detailss h1{
+    background-color: rgb(211, 0, 0);
+}
+
+
+/* fin de details d'une personne */
+.btn a {
+    color: white !important;
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 40px !important;
+    
+  }
+  
+  table {
+   
+    border-collapse: collapse;
+    width: 100%;
+    min-width: 600px; /* force le scroll sur petit écran */
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  
+  @media (max-width: 908px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+      width: 97%;
+    }
+  
+    thead {
+      display: none; /* on cache les en-têtes */
+    }
+  
+    tr {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  
+    td {
+      position: relative;
+      padding-left: 50%;
+      border: none;
+      border-bottom: 1px solid #eee;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      font-weight: bold;
+    }
+  }
+  
+  @media (max-width: 806px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+      width: 90%;
+    }
+    thead {
+      display: none; /* on cache les en-têtes */
+    }
+  
+    tr {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  
+    td {
+      position: relative;
+      padding-left: 50%;
+      border: none;
+      border-bottom: 1px solid #eee;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      font-weight: bold;
+    }
+  }
+
+  @media (max-width: 606px) {
+    table, thead, tbody, th, td, tr {
+      display: block;
+      width: 83%;
+    }
+    thead {
+      display: none; /* on cache les en-têtes */
+    }
+  
+    tr {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+  
+    td {
+      position: relative;
+      padding-left: 50%;
+      border: none;
+      border-bottom: 1px solid #eee;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      font-weight: bold;
+    }
+  }
+
+  .liste_navbar{
+    margin-left: 63%;
+  }
+
+  
+  @media (max-width: 1240px) {
+    .liste_navbar{
+      margin-left: 55%;
+    }
+    .recherch{
+      margin-left: -10%;
+    }
+  }
+  @media (max-width: 910px) {
+   
+    .recherch{
+      margin-left: -20%;
+    }
+  }
+  @media (max-width: 730px) {
+   
+    .recherch{
+      margin-left: +30%;
+    }
+  }
+  @media (max-width: 764px) {
+   
+    .recherch{
+      margin-left: +20%;
+    }
+  }
+  
+ 
+
+  
+
+  
